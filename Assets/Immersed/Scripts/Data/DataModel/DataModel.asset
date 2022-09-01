@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b33ec4aa5826b4eb4bade0a77f248538, type: 3}
+  m_Name: DataModel
+  m_EditorClassIdentifier: 
+  furniture:
+    type: 0
+    assetImage: Images/Furnitures
+    furnitures:
+    - name: Chair
+      price: 1.2
+      imagePath: Furnitures/1
+      isAvailable: 0
+      assetLink: 
+      color: {r: 0.8867924, g: 0.08784264, b: 0.08784264, a: 0.77254903}
+      size: 1
+    - name: Sofa
+      price: 1.2
+      imagePath: Furnitures/2
+      isAvailable: 0
+      assetLink: 
+      color: {r: 0.4903816, g: 0.8862745, b: 0.0862745, a: 0.77254903}
+      size: 1
+  electronic:
+    type: 1
+    assetImage: Images/Electronics
+    electronics:
+    - name: Sony Laptop
+      price: 1200.25
+      imagePath: Electronics/1
+      isAvailable: 0
+      assetLink: 
+      color: {r: 0.018689923, g: 0.7924528, b: 0.6968039, a: 0.9019608}
+      size: 2
+      brandName: Sony
+    - name: Sony TV
+      price: 1200.25
+      imagePath: Electronics/2
+      isAvailable: 0
+      assetLink: 
+      color: {r: 0.34140074, g: 0.01960786, b: 0.7921569, a: 0.9019608}
+      size: 2
+      brandName: Sony
