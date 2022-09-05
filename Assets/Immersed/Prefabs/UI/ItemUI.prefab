@@ -92,6 +92,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameField: {fileID: 7213017540436080315}
   imageField: {fileID: 7213017541101185087}
+  button: {fileID: 7213017541101185081}
+  electronicsInfoUI: {fileID: 6063307614562277921, guid: f66197dc0d3aa4d6390f559672bbbbaa, type: 3}
+  furnitureInfoUI: {fileID: 8942410466839121977, guid: f9491e44f3a754faa8be8d5db3541db7, type: 3}
 --- !u!1 &7213017540436080313
 GameObject:
   m_ObjectHideFlags: 0
@@ -342,4 +345,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7213017541101185087}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

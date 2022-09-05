@@ -2,9 +2,7 @@ using UnityEngine;
 
 namespace com.palash.immersed
 {
-   public interface IFurnitures : IItems
+   public interface IFurnitures
    {
-      // Color Color { get; }
-      // float Size { get; }
    }
 }

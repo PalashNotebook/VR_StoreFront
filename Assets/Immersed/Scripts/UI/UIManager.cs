@@ -25,10 +25,11 @@ public class UIManager : MonoBehaviour, IUIManager
     [SerializeField] private ItemUI itemPrefab;
     [SerializeField] private Transform itemParent;
     [SerializeField] private Transform itemRoot;
-    
 
+    [SerializeField] private Transform itemInfoParent;
     private Data _data;
     private List<ItemUI> allItems = new List<ItemUI>();
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,9 +64,9 @@ public class UIManager : MonoBehaviour, IUIManager
     }
 
     void DistributeGroupUI(Data _dataModel)
-    {
+    { 
         ShowGroupUI(_dataModel.electronic.type, _dataModel.electronic.assetImage);
-        ShowGroupUI(_dataModel.furniture.type, _dataModel.furniture.assetImage);
+       ShowGroupUI(_dataModel.furniture.type, _dataModel.furniture.assetImage);
     }
 
     void ShowGroupUI(GroupType _type, string _image)
@@ -118,9 +119,9 @@ public class UIManager : MonoBehaviour, IUIManager
             itemUI.transform.localScale = itemPrefab.transform.localScale;
 
             if (_type == GroupType.Electronics)
-                itemUI.ShowItemUI(_data.electronic.electronics[i]);
+                itemUI.ShowItemUI(_data.electronic.electronics[i], _type, itemInfoParent);
             else
-                itemUI.ShowItemUI(_data.furniture.furnitures[i]);
+                itemUI.ShowItemUI(_data.furniture.furnitures[i], _type, itemInfoParent);
             
             allItems.Add(itemUI);
         }

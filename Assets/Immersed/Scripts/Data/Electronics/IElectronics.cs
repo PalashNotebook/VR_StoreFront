@@ -2,10 +2,7 @@ using UnityEngine;
 
 namespace com.palash.immersed
 {
-   public interface IElectronics : IItems
+   public interface IElectronics
    {
-      // Color Color { get; }
-      // float Size { get; }
-      // string BrandName { get;  }
    }
 }
