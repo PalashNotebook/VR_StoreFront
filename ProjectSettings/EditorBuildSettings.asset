@@ -9,55 +9,55 @@ EditorBuildSettings:
     path: Assets/Immersed/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/StartScene.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/StartScene.unity
     guid: 071fba5195bd4b04eab8668985aa1683
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/CustomHands.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/CustomHands.unity
     guid: a4f984fcee593d2418cc61f4a993d46d
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/DebugUI.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/DebugUI.unity
     guid: 34004346bd7dcbf4fbfd78d2f12e4451
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/DistanceGrab.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/DistanceGrab.unity
     guid: 24f58b3f0ca02d44eaec7f50bca538f2
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/Firebase.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/Firebase.unity
     guid: 954eda7bd02eb444ca928648702a2b4c
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/AppDeeplink.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/AppDeeplink.unity
     guid: 86c41af799197d64889f7269608d44e6
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/CustomControllers.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/CustomControllers.unity
     guid: e0f49aa4174f98941b88699b5fecddc0
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/HandsInteractionTrainScene.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/HandsInteractionTrainScene.unity
     guid: a9c41884ef0c347628dfd8a4af4a022e
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/Locomotion.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/Locomotion.unity
     guid: 024cd9dcd49bd8f46a6bea03aa8a21bb
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/MixedRealityCapture.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/MixedRealityCapture.unity
     guid: 24872d3c3760f23498f41ecb019ea5cd
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/OVROverlay.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/OVROverlay.unity
     guid: d31b44aac77e1684d861792b23d46a8b
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/OVROverlayCanvas.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/OVROverlayCanvas.unity
     guid: af6fdd821de21814caa6187d466b6d2b
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/Passthrough.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/Passthrough.unity
     guid: 58e5fc2486c774a4e88ac76261268d52
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/SceneManager.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/SceneManager.unity
     guid: d9d629a01189e9744a9347a18243afd9
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/SpatialAnchor.unity
     guid: 1db179c458352bf46beb307fd047d589
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/Stereo180Video.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/Stereo180Video.unity
     guid: 11cf8fa7bf3deb04db11bd170c0b4338
   - enabled: 0
-    path: Assets/Oculus/SampleFramework/Usage/WidevineVideo.unity
+    path: Assets/Others/Oculus/SampleFramework/Usage/WidevineVideo.unity
     guid: 5495456b7253d31479996b9587c20927
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 064550852f5c74f9cb19e54df213e6c9, type: 2}

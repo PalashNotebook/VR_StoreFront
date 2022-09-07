@@ -65,7 +65,7 @@ public class FurnituresInfoUI : MonoBehaviour
 
        DownloadableAsset asset = bundle.LoadAsset<GameObject>(_name).GetComponent<DownloadableAsset>();
        DownloadableAsset obj = Instantiate(asset);
-       obj.transform.position += new Vector3(Random.Range(-2, 2), 0, Random.Range(2, 5));
+       obj.transform.position += new Vector3(Random.Range(-2, 2), 0, Random.Range(-2, 2));
        buyButton.interactable = false;
        
        if (!loadedBundles.ContainsKey(_assetLink))
