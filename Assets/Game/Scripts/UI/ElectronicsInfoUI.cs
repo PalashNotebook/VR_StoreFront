@@ -65,7 +65,7 @@ public class ElectronicsInfoUI : MonoBehaviour
 
         DownloadableAsset asset = bundle.LoadAsset<GameObject>(_name).GetComponent<DownloadableAsset>();
         DownloadableAsset obj = Instantiate(asset);
-        obj.transform.position += new Vector3(Random.Range(-5, 5), 0, Random.Range(1, 5));
+        obj.transform.position += new Vector3(Random.Range(-0.65f, 0.65f), 0, Random.Range(0.2f, 0.55f));
         buyButton.interactable = false;
         if (!loadedBundles.ContainsKey(_assetLink))
             loadedBundles.Add(_assetLink, bundle);
