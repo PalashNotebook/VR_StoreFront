@@ -7,7 +7,7 @@ public static class ConstData
     {
         get
         {
-            return  "https://dt-isg2.s3.ap-south-1.amazonaws.com/Immersed";
+            return  "";
         }
     }
 }
